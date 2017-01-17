@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+USE DOM PARSER
+
+Optimization 1: parse xml file one by one, 
+then write the meaningfull data to .txt with field seperated by '|'
+This will reduce the memory use, and import parsing speed.
+Later on, the .txt file can be use to improve insert into database.
+
+Optimization 2: use LOAD LOCAL INFILE to speed up insert into tables in database.
+Use INSERT FROM JOIN to insert data to linked table. 
+</body>
+</html>
